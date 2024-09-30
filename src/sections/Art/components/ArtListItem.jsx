@@ -5,7 +5,7 @@ function ArtListItem({ item }) {
     <li>
       <div className="frame">
         <img
-          src={`https://boolean-api-server.fly.dev${item.imageURL}`}
+          src={`https://boolean-uk-api-server.fly.dev${item.imageURL}`}
           alt="image"
         />
       </div>

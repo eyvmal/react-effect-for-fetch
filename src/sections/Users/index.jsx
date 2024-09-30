@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import UsersList from "./components/UsersList.jsx";
 
 function UsersSection() {
   const url = "https://boolean-uk-api-server.fly.dev/eyvmal/contact";
@@ -16,7 +17,9 @@ function UsersSection() {
   return (
     <section>
       <h2>Users Section</h2>
-      <div className="scroll-container"></div>
+      <div className="scroll-container">
+        <UsersList data={data}/>
+      </div>
     </section>
   )
 }
